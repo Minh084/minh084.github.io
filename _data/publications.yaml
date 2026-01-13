@@ -2,34 +2,34 @@ papers:
 
   - title: "Smarter by Design: How SmarterDx Engineered Clinical AI for the Complexity of Healthcare"
     authors: "" 
-    venue: Company whitepaper
+    venue: "Company whitepaper (2025)"
     paper_pdf: https://www.smarterdx.com/smarter-by-design?utm_source=Social&utm_medium=LinkedIn&utm_campaign=Smarter+by+Design
     selected: y 
 
   - title: "Prospector Heads: Generalized Feature Attribution for Large Models & Data"
     authors: "Gautam Machiraju, Alexander Derry, Arjun Desai, Neel Guha, Amir-Hossein Karimi, James Zou, Russ Altman, Christopher Ré, Parag Mallick" 
-    venue: International Conference on Machine Learning (ICML), 2024
+    venue: "International Conference on Machine Learning (ICML), 2024"
     paper_pdf: https://arxiv.org/abs/2402.11729
     selected: y 
 
   - title: "Development and Evaluation of an Image-based Deep Learning Algorithm to Classify Skin Lesions from Mpox Virus Infection"
     authors: "Alexander Henry Thieme, Yuanning Zheng, Gautam Machiraju, et al."
-    venue: "Nature Medicine (2023)."
+    venue: "Nature Medicine (2023)"
     selected: y
 
   - title: "A Dataset Generation Framework for Evaluating Megapixel Image Classifiers & their Explanations"
     authors: "Gautam Machiraju, Sylvia Plevritis, Parag Mallick"
-    venue: European Conference on Computer Vision (ECCV), 2022.
+    venue: "European Conference on Computer Vision (ECCV), 2022"
     selected: y
 
   - title: "Developing Machine Learning Models to Personalize Care Levels among Emergency Room Patients for Hospital Admission"
     authors: "Minh Nguyen, Conor Corbin, Tiffany Eulalio, Nicolai Ostberg, Gautam Machiraju, Ben Marafino, Michael Baiocchi, Christian Rose, Jonathan Chen"
-    venue: "Journal of the American Medical Informatics Association (2021)."
+    venue: "Journal of the American Medical Informatics Association (2021)"
     selected: y
 
   - title: "Multicompartment Modeling of Protein Shedding Kinetics During Vascularized Tumor Growth"
     authors: "Gautam Machiraju, Parag Mallick, Hermann Frieboes"
-    venue: "Nature Scientific Reports (2020)."
+    venue: "Nature Scientific Reports (2020)"
     selected: y
 
  
