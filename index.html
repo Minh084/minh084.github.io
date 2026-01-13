@@ -59,7 +59,7 @@ ul li { margin-bottom: 10px; }
   I am a Member of the Technical Staff at Radical Numerics, an SF- and Tokyo-based startup building frontier biological sequence models. My research efforts focus on (a) building modeling primitives for long-context attribution and interpretability, (b) test-time model steering, and (c) methods applications for AI-driven knowledge acquisition — ultimately aiding in our understand of biological systems and the natural world.
   </p>
   <p>
-  I completed my PhD in Biomedical Informatics at the department of Biomedical Data Science and Stanford AI Lab (SAIL). I was extremely fortunate to be co-advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Christopher Ré</a> (CS).
+  I completed my PhD in Biomedical Informatics at the department of Biomedical Data Science and Stanford AI Lab (SAIL), where I was extremely fortunate to be co-advised and mentored by <a href="http://mallicklab.stanford.edu/" target="_blank">Parag Mallick</a> (Radiology) and <a href="https://cs.stanford.edu/~chrismre/" target="_blank">Christopher Ré</a> (CS). My undergraduate training was in Applied Mathematics and Bioengineering at University of California, Berkeley. My CV can be found <a href="https://docs.google.com/document/d/18GSGlWmmsnwIC8LWERlCsfV4lwQD6Ddhe3mG-3Y9FRE/edit?usp=sharing" target="_blank">here</a>.
   </p>
   <p> 
   <b>My name</b> is most similarly pronounced as Batman's city of residence, "Gotham" (i.e. <i>GAW-thum</i>). There are many intonation variants for my Sanskrit-originating name across India, but this pronunciation is the closest to the North Indian variant. I also go by "Machi" if that's easier. 
@@ -67,30 +67,16 @@ ul li { margin-bottom: 10px; }
 </div>
 
 
-
+<!-- ========== Research ========== -->
 <div class="docs-section" id="research">
-  <h4>Research</h4>
-  under construction
-</div>
+  <h4>Research Artifacts</h4>
 
-
-<!-- ========== PUBLICATIONS ========== -->
-  <h4>Projects & Artifacts</h4>
-  <p>Stay tuned for future publications and writings on: 
-  <ul>
-    <li>Attributor models for spatial biology: <i>in silico</i> discovering pathomic patterns of aggressive cancers</li>
-    <li>A review on spatial statistics for spatial biology</li>
-  </ul> 
-  <p>Details (projects, collaborators, talks, academic service, relevant coursework) can be found on my <a href="https://docs.google.com/document/d/18GSGlWmmsnwIC8LWERlCsfV4lwQD6Ddhe3mG-3Y9FRE/edit?usp=sharing" target="_blank">CV</a> and <a href="https://www.linkedin.com/in/gmachiraju/" target="_blank">Linkedin page</a>.</p>
+  I've had the pleasure of building models for multiple "token types" and biomedical domains: <b>pixels</b> in imagery (pathology, edge devices, video frames, satellite imagery), <b>text spans</b> in natural language (scientific literature, EHRs), <b>cells</b> in tumors (spatial proteomics), and <b>monomers</b> in biological sequences (DNA, proteins). Most recent publications can be found on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>, with a representative sample here:
   
-  <br/><br/>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  </p>
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
   </ul>
-
   <div class="tab-content">
-
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
@@ -124,19 +110,24 @@ ul li { margin-bottom: 10px; }
     </div>
   </div>
 
+  <p>Stay tuned for future research artifacts centered around: 
+  <ul>
+    <li>Attributor models for spatial biology: <i>in silico</i> approaches to discover pathomic patterns of aggressive cancers</li>
+    <li>Agentic workflows for clinical reasoning</li>
+    <li>A review on spatial statistics and AI methods for spatial biology</li>
+  </ul> 
+  </p>
+</div>
 
- <!-- ========== PROJECTS ==========  -->
+
+ <!-- ========== ETCETERA ==========  -->
 <div class="docs-section" id="etcetera">
   <h4>Etcetera</h4>
   <p> 
-    <b>Fun:</b> On weekends, you can find me and my partner grabbing some sun in urban-suburban East Bay. Or we're unplugging at one of California's numerous regional, state, or national parks to spend time on the water and trails. Outside of hiking and camping, my hobbies include painting, gardening, and hosting regular themed dinner and cocktail parties. I also love city trekking with friends and popping into cafés and roasteries, museums, used bookstores (hunting for vintage maths sections), and outdoor pubs with live music sessions. Reach out if you'd like to grab a coffee!
-  </p>
-  <p>
-    <b>Design:</b> One of my favorite aspects of research is thinking about aesthetic and design when communicating technical ideas. This drive to understand ideas by visually communicating them (often to myself) sparked as a dyslexic Maths undergraduate. Despite my numerous interests in Maths, I struggled to parse and conceptualize blocks of textual abstraction in <a href="https://en.wikipedia.org/wiki/History_of_mathematics#Modern">modern mathematical presentation</a>, typical of standard teaching materials. I thus relied heavily on intuition and visual proofs as mental anchors. Thanks in part to training as a <a href="https://dschool.stanford.edu/classes/creativity-in-research-scholars">CIR Scholar</a> at Stanford's <a href="https://dschool.stanford.edu/">Hasso Plattner Institute of Design</a>, I cartoon-ify almost everything I work on and will carve out time to reflect on, mock up, and refine any discussed concepts.
-  </p> 
+    In my down-time, I explore graphic and visual design, architectural/street photography, and sound design. 
+    </p>
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <!-- <li><div class="button" data-ref="#projects-all">All</div></li> -->
   </ul>
 
   <div class="tab-content">
