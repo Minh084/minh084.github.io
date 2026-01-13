@@ -14,3 +14,13 @@ vendor/
 _data/.DS_Store
 _data/things-to-add.yaml
 scraps/*
+
+.DS_Store
+_website_2014/.DS_Store
+assets/.DS_Store
+assets/cv/.DS_Store
+assets/figs/.DS_Store
+assets/projects/.DS_Store
+assets/publications/.DS_Store
+libs/.DS_Store
+libs/external/.DS_Store
