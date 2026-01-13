@@ -303,6 +303,9 @@ ol ul {
 li {
   margin-bottom: 1rem; }
 
+.spaced-list {
+  margin-top: 0.5em;
+}
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
