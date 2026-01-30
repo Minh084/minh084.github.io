@@ -1,36 +1,51 @@
 papers:
 
-  - title: "Smarter by Design: How SmarterDx Engineered Clinical AI for the Complexity of Healthcare"
-    authors: "" 
-    venue: "Company whitepaper (2025)"
-    paper_pdf: https://www.smarterdx.com/smarter-by-design?utm_source=Social&utm_medium=LinkedIn&utm_campaign=Smarter+by+Design
+  - title: "Developing machine learning models to personalize care levels among emergency room patients for hospital admission"
+    authors: "Minh Nguyen, Conor Corbin, Tiffany Eulalio, Nicolai Ostberg, Gautam Machiraju, Ben Marafino, Michael Baiocchi, Christian Rose, Jonathan Chen" 
+    venue: "JAMIA, 2021"
+    paper_pdf: https://academic.oup.com/jamia/article/28/11/2423/6353363?login=false
     selected: y 
 
-  - title: "Prospector Heads: Generalized Feature Attribution for Large Models & Data"
-    authors: "Gautam Machiraju, Alexander Derry, Arjun Desai, Neel Guha, Amir-Hossein Karimi, James Zou, Russ Altman, Christopher Ré, Parag Mallick" 
-    venue: "International Conference on Machine Learning (ICML), 2024"
-    paper_pdf: https://arxiv.org/abs/2402.11729
+  - title: "Machine learning for initial insulin estimation in hospitalized patients"
+    authors: "Minh Nguyen, Ivana Jankovic, Larry Kalesinskas, Mike Baiocchi, Jonathan Chen" 
+    venue: "JAMIA, 2021"
+    paper_pdf: http://academic.oup.com/jamia/article/28/10/2212/6324041?login=false
     selected: y 
 
-  - title: "Development and Evaluation of an Image-based Deep Learning Algorithm to Classify Skin Lesions from Mpox Virus Infection"
-    authors: "Alexander Henry Thieme, Yuanning Zheng, Gautam Machiraju, et al."
-    venue: "Nature Medicine (2023)"
+  - title: "Thick Data Analytics (TDA): An Iterative and Inductive Framework for Algorithmic Improvement"
+    authors: "Minh Nguyen, Tiffany Eulalio, Ben Marafino, Christian C Rose, Jonathan H Chen, Michael Baiocchi"
+    venue: "The American Statistician, 2024"
+    paper_pdf: https://www.tandfonline.com/doi/abs/10.1080/00031305.2024.2327535
+    selected: y
+    
+  - title: "Constrained design of a binary instrument in a partially linear model"
+    authors: "Tim Morrison, Minh Nguyen, Jonathan Chen, Michael Baiocchi, and Art Owen"
+    venue: "Observational Studies, 2025"
+    paper_pdf: https://muse.jhu.edu/article/973067
+    selected: y
+  
+  - title: "Dynamic impact of transfusion ratios on outcomes in severely injured patients: Targeted machine learning analysis of the Pragmatic, Randomized Optimal Platelet and Plasma Ratios randomized clinical trial"
+    authors: "Minh Nguyen, Romain Pirracchio, Lucy Kornblith, Rachael Callcut, Erin Fox, Charles Wade, Martin Schreiber, John Holcomb, Jeremy Coyle, Mitchell Cohen, Allan Hubbard"
+    venue: "Journal of Trauma and Acute Care Surgery, 2020"
+    paper_pdf: https://journals.lww.com/jtrauma/abstract/2020/09000/dynamic_impact_of_transfusion_ratios_on_outcomes.13.aspx
+    selected: y
+    
+  - title: "Impact and resiliency of the early phase of the COVID-19 pandemic on healthcare providers and their household members"
+    authors: "Hannah Jang Kim, Minh Nguyen, Meghan Duck, Yin Lo, Vivian Huang, Lori Kennedy, Carol Dawson-Rose & OiSaeng Hong"
+    venue: "Nature Scientific Reports, 2025"
+    paper_pdf: https://www.nature.com/articles/s41598-025-14694-6
     selected: y
 
-  - title: "A Dataset Generation Framework for Evaluating Megapixel Image Classifiers & their Explanations"
-    authors: "Gautam Machiraju, Sylvia Plevritis, Parag Mallick"
-    venue: "European Conference on Computer Vision (ECCV), 2022"
+  - title: "Performance Benchmarking of Smaller Language Models Against GPT-4 for Predicting Reasons for Oral Anticoagulation Nonprescription in Atrial Fibrillation"
+    authors: "Sulaiman Somani, Dale Kim, Eduardo Perez Guerrero, Summer Ngo, Minh Nguyen, Alexander Sandhu, Emily Alsentzer, Tina Hernandez-Boussard, Fatima Rodriguez"
+    venue: "Circulation, 2025"
     selected: y
-
-  - title: "Developing Machine Learning Models to Personalize Care Levels among Emergency Room Patients for Hospital Admission"
-    authors: "Minh Nguyen, Conor Corbin, Tiffany Eulalio, Nicolai Ostberg, Gautam Machiraju, Ben Marafino, Michael Baiocchi, Christian Rose, Jonathan Chen"
-    venue: "Journal of the American Medical Informatics Association (2021)"
+  
+  - title: "Red teaming ChatGPT in medicine to yield real-world insights on model behavior"
+    authors: "Chang, C.T., Farah, H., Gui, H. et al."
+    venue: "npj Digital Medicine, 2025"
     selected: y
-
-  - title: "Multicompartment Modeling of Protein Shedding Kinetics During Vascularized Tumor Growth"
-    authors: "Gautam Machiraju, Parag Mallick, Hermann Frieboes"
-    venue: "Nature Scientific Reports (2020)"
-    selected: y
+    
 
  
 
