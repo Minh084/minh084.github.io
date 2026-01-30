@@ -1,3 +1,3 @@
 layout: page
-title: "Gautam Machiraju"
-permalink: /https://gmachiraju.github.io/
+title: "Minh Nguyen"
+permalink: /https://minh084.github.io/
