@@ -1,4 +1,4 @@
-# Gautam Machiraju's Website
+# Personal Website
 
 ## Acknowledgements
 Much of this website was adapted from Martin Saveski's fantastic website: https://github.com/msaveski/www_personal
