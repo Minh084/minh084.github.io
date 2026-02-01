@@ -7,13 +7,13 @@ papers:
     selected: y 
 
   - title: "Machine learning for initial insulin estimation in hospitalized patients"
-    authors: "Minh Nguyen, Ivana Jankovic, Larry Kalesinskas, Mike Baiocchi, Jonathan Chen" 
+    authors: "Minh Nguyen, Ivana Jankovic, Larry Kalesinskas, Michael Baiocchi, Jonathan Chen" 
     venue: "JAMIA, 2021"
     paper_pdf: http://academic.oup.com/jamia/article/28/10/2212/6324041?login=false
     selected: y 
 
   - title: "Thick Data Analytics (TDA): An Iterative and Inductive Framework for Algorithmic Improvement"
-    authors: "Minh Nguyen, Tiffany Eulalio, Ben Marafino, Christian C Rose, Jonathan H Chen, Michael Baiocchi"
+    authors: "Minh Nguyen, Tiffany Eulalio, Ben Marafino, Christian C Rose, Jonathan Chen, Michael Baiocchi"
     venue: "The American Statistician, 2024"
     paper_pdf: https://www.tandfonline.com/doi/abs/10.1080/00031305.2024.2327535
     selected: y
