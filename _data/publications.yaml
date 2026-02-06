@@ -13,7 +13,7 @@ papers:
     selected: y 
 
   - title: "Thick Data Analytics (TDA): An Iterative and Inductive Framework for Algorithmic Improvement"
-    authors: "Minh Nguyen, Tiffany Eulalio, Ben Marafino, Christian C Rose, Jonathan Chen, Michael Baiocchi"
+    authors: "Minh Nguyen, Tiffany Eulalio, Ben Marafino, Christian Rose, Jonathan Chen, Michael Baiocchi"
     venue: "The American Statistician, 2024"
     paper_pdf: https://www.tandfonline.com/doi/abs/10.1080/00031305.2024.2327535
     selected: y
