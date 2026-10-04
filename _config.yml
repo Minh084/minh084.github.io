@@ -7,9 +7,6 @@ baseurl: ""
 url: "https://minh084.github.io"
 github_username: "Minh084"
 
-plugins:
-  - jekyll-feed
-
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -89,6 +89,154 @@ h4 {
   margin-bottom: 1.2rem;
 }
 
+.journey-intro {
+  max-width: 68rem;
+}
+
+.journey-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.8rem;
+  margin: 2rem 0;
+  color: var(--muted);
+  font-size: 1.3rem;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.legend-dot.education {
+  background: #3f6fb5;
+}
+
+.legend-dot.clinical {
+  background: #b4584d;
+}
+
+.legend-dot.research {
+  background: var(--accent);
+}
+
+.career-timeline {
+  position: relative;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 0 0 2.5rem;
+  list-style: none;
+}
+
+.career-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0.8rem;
+  bottom: 0.8rem;
+  left: 0.65rem;
+  width: 2px;
+  background: var(--line);
+}
+
+.timeline-entry {
+  position: relative;
+  margin: 0 0 1.4rem;
+}
+
+.timeline-entry::before {
+  content: "";
+  position: absolute;
+  top: 1.4rem;
+  left: -2.45rem;
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--line);
+  z-index: 2;
+}
+
+.timeline-entry.education::before {
+  background: #3f6fb5;
+}
+
+.timeline-entry.clinical::before {
+  background: #b4584d;
+}
+
+.timeline-entry.research::before {
+  background: var(--accent);
+}
+
+.timeline-card {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  padding: 1.4rem 1.5rem;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  line-height: 1.45;
+  text-align: left;
+  text-transform: none;
+  white-space: normal;
+}
+
+.timeline-date,
+.timeline-title,
+.timeline-place,
+.timeline-description,
+.timeline-category {
+  display: block;
+}
+
+.timeline-date {
+  margin-bottom: 0.25rem;
+  color: var(--accent);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+
+.timeline-title {
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+
+.timeline-place {
+  margin-top: 0.1rem;
+  color: var(--muted);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.timeline-description {
+  margin-top: 0.8rem;
+  color: var(--muted);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.timeline-category {
+  margin-top: 1rem;
+  color: #76828c;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+}
+
 .paper {
   margin: 0 0 2.8rem;
   padding-left: 1.6rem;
@@ -155,6 +303,10 @@ h4 {
 
   .main-description {
     padding-top: 0;
+  }
+
+  .career-timeline {
+    padding-left: 2.2rem;
   }
 }
 

@@ -16,6 +16,7 @@ bundle exec jekyll serve
 - `index.html`: homepage content
 - `_data/main_info.yaml`: header and profile links
 - `_data/publications.yaml`: selected publications
+- `_data/experience.yaml`: career timeline
 - `assets/profile-pics/`: profile image
 - `libs/custom/`: site-specific styling and behavior
 

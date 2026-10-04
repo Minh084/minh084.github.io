@@ -55,6 +55,34 @@ title: Home
   </ul>
 </div>
 
+<!-- ========== CAREER JOURNEY ========== -->
+<div class="docs-section" id="journey">
+  <h4>Career Journey</h4>
+  <p class="journey-intro">
+    My path connects bedside nursing, quantitative training, clinical research, and AI product development.
+  </p>
+
+  <div class="journey-legend" aria-label="Experience categories">
+    <span class="legend-item"><span class="legend-dot education" aria-hidden="true"></span>Technical education</span>
+    <span class="legend-item"><span class="legend-dot clinical" aria-hidden="true"></span>Clinical practice</span>
+    <span class="legend-item"><span class="legend-dot research" aria-hidden="true"></span>Research and clinical AI</span>
+  </div>
+
+  <ol class="career-timeline" aria-label="Career timeline">
+    {% for experience in site.data.experience.experiences %}
+      <li class="timeline-entry {{ experience.category }}">
+        <div class="timeline-card">
+          <span class="timeline-date">{{ experience.time }}</span>
+          <span class="timeline-title">{{ experience.title }}</span>
+          <span class="timeline-place">{{ experience.place }}</span>
+          <span class="timeline-description">{{ experience.subtitle }}</span>
+          <span class="timeline-category">{{ experience.category_label }}</span>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+</div>
+
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Selected Publications</h4>
