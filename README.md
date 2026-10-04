@@ -1,34 +1,25 @@
-# Personal Website
+# Minh Nguyen — Personal Website
 
-## Acknowledgements
-Much of this website was adapted from Martin Saveski's fantastic website: https://github.com/msaveski/www_personal
+This repository contains the source for [minh084.github.io](https://minh084.github.io/),
+a professional website focused on clinical AI research, evaluation, product strategy,
+and nursing-informed technology development.
 
-## Updates guide (provided by Martin)
-Change one of the files in `_data`, unless you are changing the look of the website.
+## Local development
 
-Test changes with:
-```
-jekyll serve
-```
-
-Push to the ML web directory:
-```
-rm -rf public_html
-mkdir public_html
-```
-```
-./__deploy.sh
+```bash
+bundle install
+bundle exec jekyll serve
 ```
 
-More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPagePersonal).
+## Site structure
 
+- `index.html`: homepage content
+- `_data/main_info.yaml`: header and profile links
+- `_data/publications.yaml`: selected publications
+- `assets/profile-pics/`: profile image
+- `libs/custom/`: site-specific styling and behavior
 
-## External Libraries
-- Framework: [Jekyll](http://jekyllrb.com/)
-- CSS
-  - [Skeleton](getskeleton.com)
-  - Tabs: [Skeleton Tabs](https://github.com/nathancahill/skeleton-tabs)
-  - Experience: [Timeline](https://codepen.io/NilsWe/pen/FemfK)
-  - Icons: [Font Awesome](http://fontawesome.io/)
-- JS
-  - [Jquery (3.1.1)](https://jquery.com/)
+## Acknowledgement
+
+The site design is adapted from [Martin Saveski's personal website](https://github.com/msaveski/www_personal),
+with modifications by [Gautam Machiraju](https://github.com/gmachiraju/gmachiraju.github.io).

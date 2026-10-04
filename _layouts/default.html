@@ -6,13 +6,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Minh Nguyen">
+  <meta name="description" content="{{ site.description }}">
   <meta name="author" content="Minh Nguyen">
-  <meta property="og:title" content="Minh Nguyen" />
+  <meta property="og:title" content="Minh Nguyen | Clinical AI Scientist" />
+  <meta property="og:description" content="{{ site.description }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://profiles.stanford.edu/minh-chau-nguyen?tab=bio" />
+  <meta property="og:url" content="{{ site.url }}" />
   <meta property="og:site_name" content="Minh Nguyen" />
-  <link rel="canonical" href="https://profiles.stanford.edu/minh-chau-nguyen?tab=bio" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -40,24 +41,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href={{ "/libs/external/academicons-1.8.6/css/academicons.min.css" | prepend: site.baseurl }}>
 
-  <!-- Skeleton tabs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/skeleton_tabs/skeleton-tabs.css" | prepend: site.baseurl }}>
-  <script src={{ "/libs/external/skeleton_tabs/skeleton-tabs.js" | prepend: site.baseurl }}></script>
-
-  <!-- Timeline
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/timeline.css" | prepend: site.baseurl }}>
-
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!--<link rel="stylesheet" href={{ "/libs/external/github-prettify-theme.css" | prepend: site.baseurl }}>-->
   <script src={{ "/libs/custom/my_js.js" | prepend: site.baseurl }}></script>
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
-  <link rel="shortcut icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
 
 </head>
 <body>
@@ -100,9 +87,10 @@
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#work" | prepend: site.baseurl }}>Work</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#others" | prepend: site.baseurl }}>Others</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#focus">Focus</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#publications">Publications</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#background">Background</a></li>
         </ul>
       </div>
     </nav>
@@ -137,12 +125,6 @@
     </div>
 
   </div>
-
-  <!-- Google Analytics -->
-  {% include google_analytics.html %}
-
-  <!-- do not remove -->
-  <span id="62cd7b7da1aff3196fdc26b60e396df9"></span>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

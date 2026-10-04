@@ -1,94 +1,44 @@
 papers:
-
-  - title: "Developing machine learning models to personalize care levels among emergency room patients for hospital admission"
-    authors: "Minh Nguyen, Conor Corbin, Tiffany Eulalio, Nicolai Ostberg, Gautam Machiraju, Ben Marafino, Michael Baiocchi, Christian Rose, Jonathan Chen" 
-    venue: "JAMIA, 2021"
-    paper_pdf: https://academic.oup.com/jamia/article/28/11/2423/6353363?login=false
-    selected: y 
-
-  - title: "Machine learning for initial insulin estimation in hospitalized patients"
-    authors: "Minh Nguyen, Ivana Jankovic, Larry Kalesinskas, Michael Baiocchi, Jonathan Chen" 
-    venue: "JAMIA, 2021"
-    paper_pdf: http://academic.oup.com/jamia/article/28/10/2212/6324041?login=false
-    selected: y 
-
-  - title: "Thick Data Analytics (TDA): An Iterative and Inductive Framework for Algorithmic Improvement"
-    authors: "Minh Nguyen, Tiffany Eulalio, Ben Marafino, Christian Rose, Jonathan Chen, Michael Baiocchi"
-    venue: "The American Statistician, 2024"
-    paper_pdf: https://www.tandfonline.com/doi/abs/10.1080/00031305.2024.2327535
-    selected: y
-    
-  - title: "Constrained design of a binary instrument in a partially linear model"
-    authors: "Tim Morrison, Minh Nguyen, Jonathan Chen, Michael Baiocchi, and Art Owen"
-    venue: "Observational Studies, 2025"
-    paper_pdf: https://muse.jhu.edu/article/973067
-    selected: y
-  
-  - title: "Dynamic impact of transfusion ratios on outcomes in severely injured patients: Targeted machine learning analysis of the Pragmatic, Randomized Optimal Platelet and Plasma Ratios randomized clinical trial"
-    authors: "Minh Nguyen, Romain Pirracchio, Lucy Kornblith, Rachael Callcut, Erin Fox, Charles Wade, Martin Schreiber, John Holcomb, Jeremy Coyle, Mitchell Cohen, Allan Hubbard"
-    venue: "Journal of Trauma and Acute Care Surgery, 2020"
-    paper_pdf: https://journals.lww.com/jtrauma/abstract/2020/09000/dynamic_impact_of_transfusion_ratios_on_outcomes.13.aspx
-    selected: y
-    
-  - title: "Impact and resiliency of the early phase of the COVID-19 pandemic on healthcare providers and their household members"
-    authors: "Hannah Jang Kim, Minh Nguyen, Meghan Duck, Yin Lo, Vivian Huang, Lori Kennedy, Carol Dawson-Rose & OiSaeng Hong"
-    venue: "Nature Scientific Reports, 2025"
-    paper_pdf: https://www.nature.com/articles/s41598-025-14694-6
-    selected: y
+  - title: "Leveraging Large Language Models to Understand Reasons for SGLT2 Non-Treatment Among Patients with Heart Failure"
+    authors: "Vasti E*, <b>Nguyen M*</b>, Alsentzer E, Chu E, Liu X, Chakoumakos M, et al. (*Co-first authors)"
+    venue: "Journal of Cardiac Failure. In press. Accepted August 17, 2026."
 
   - title: "Performance Benchmarking of Smaller Language Models Against GPT-4 for Predicting Reasons for Oral Anticoagulation Nonprescription in Atrial Fibrillation"
-    authors: "Sulaiman Somani, Dale Kim, Eduardo Perez Guerrero, Summer Ngo, Minh Nguyen, Alexander Sandhu, Emily Alsentzer, Tina Hernandez-Boussard, Fatima Rodriguez"
-    venue: "Circulation, 2025"
-    selected: y
-  
-  - title: "Red teaming ChatGPT in medicine to yield real-world insights on model behavior"
-    authors: "Chang, C.T., Farah, H., Gui, H. et al."
-    venue: "npj Digital Medicine, 2025"
-    selected: y
-    
+    authors: "Somani S, Kim D, Guerrero E, Ngo S, <b>Nguyen M</b>, Sandhu A, Alsentzer E, Hernandez-Boussard T, Rodriguez F"
+    venue: "Circulation. 2025;152(Suppl 3):Abstract 4366575."
+    paper_pdf: "https://doi.org/10.1161/CIRC.152.suppl_3.4366575"
 
- 
+  - title: "Impact and Resiliency of the Early Phase of the COVID-19 Pandemic on Healthcare Providers and Their Household Members"
+    authors: "Kim HJ, <b>Nguyen M</b>, Duck M, Lo Y, Huang V, Kennedy L, Dawson-Rose C, Hong O"
+    venue: "Scientific Reports. 2025;15:37012."
+    paper_pdf: "https://www.nature.com/articles/s41598-025-14694-6"
 
+  - title: "Red Teaming ChatGPT in Medicine to Yield Real-World Insights on Model Behavior"
+    authors: "Chang CT, Farah H, Gui H, et al."
+    venue: "npj Digital Medicine. 2025;8:149."
+    paper_pdf: "https://doi.org/10.1038/s41746-025-01542-0"
 
+  - title: "Constrained Design of a Binary Instrument in a Partially Linear Model"
+    authors: "Morrison T, <b>Nguyen M</b>, Chen JH, Baiocchi M, Owen AB"
+    venue: "Observational Studies. 2025;11(3):213–248."
+    paper_pdf: "https://muse.jhu.edu/article/973067"
 
+  - title: "Thick Data Analytics: An Iterative and Inductive Framework for Algorithmic Improvement"
+    authors: "<b>Nguyen M</b>, Eulalio T, Marafino BJ, Rose C, Chen JH, Baiocchi M"
+    venue: "The American Statistician. 2024;78(4):456–464."
+    paper_pdf: "https://doi.org/10.1080/00031305.2024.2327535"
 
- # \textbf{}, \textit{International Conference on Machine Learning} (ICML) workshop on \textit{Interpretable Machine Learning for Healthcare} (IMLH) 2023.
+  - title: "Developing Machine Learning Models to Personalize Care Levels Among Emergency Room Patients for Hospital Admission"
+    authors: "<b>Nguyen M</b>, Corbin C, Eulalio T, Ostberg NP, Machiraju G, Marafino BJ, Baiocchi M, Rose C, Chen JH"
+    venue: "Journal of the American Medical Informatics Association. 2021;28(11):2423–2432."
+    paper_pdf: "https://academic.oup.com/jamia/article/28/11/2423/6353363"
 
-  # - title: "EpiMix: An Integrative Tool for the Population-level Analysis of DNA Methylation"
-  #   authors: "Yuanning Zheng, Jun John, Jayendra Shinde, Kevin Brennan, Hong Zheng, <b>Gautam Machiraju</b>, Olivier Gevaert"
-  #   venue: In review.
-  #   selected: y
+  - title: "Machine Learning for Initial Insulin Estimation in Hospitalized Patients"
+    authors: "<b>Nguyen M</b>, Jankovic I, Kalesinskas L, Baiocchi M, Chen JH"
+    venue: "Journal of the American Medical Informatics Association. 2021;28(10):2212–2219."
+    paper_pdf: "https://academic.oup.com/jamia/article/28/10/2212/6324041"
 
-
-  #   - title: "Grammar Matters: Grammatical Templates Improve Language Model Fine-Tuning for Biomedical Relation Extraction"
-  #   authors: "Varun Tandon, Gautam Machiraju, Parag Mallick"
-  #   venue: In review.
-  #   selected: y
-
-  # - title: "Spatial Statistics for Spatial Biology"
-  #   authors: "Hunter Boyce, Gautam Machiraju, Parag Mallick"
-  #   venue: In review.
-  #   selected: n
-
-    # - title: "A Community-based Approach to Image Analysis of Cells, Tissues and Tumors"
-    # authors: "CSBC/PS-ON Image Analysis Working Group<sup>§</sup><sup>‡</sup>, Juan Carlos Vizcarra, Erik A. Burlingame, Yury Goltsev, Brian S. White, Darren Tyson, Artem Sokolov"
-    # venue: "Computerized Medical Imaging and Graphics (2022)."
-    # selected: n
-
-    #  - title: "Multi-omics Factorization Illustrates the Added Value of Deep Learning Approaches"
-    # authors: "Gautam Machiraju, David Amar, Euan Ashley"
-    # venue: "Preprint (2019)."
-    # paper_pdf: http://cs229.stanford.edu/proj2019spr/report/66.pdf
-    # selected: n
-
-    # - title: "Prospectors: Leveraging Short Contexts to Mine Salient Objects in High-dimensional Imagery"
-    # authors: "Gautam Machiraju, Arjun Desai, James Zou, Christopher Ré, Parag Mallick"
-    # venue: International Conference on Machine Learning (ICML) 3rd workshop on Interpretable Machine Learning for Healthcare (IMLH) 2023.
-    # paper_pdf: "/assets/publications/k2/k2.pdf" 
-    # selected: y
-
-    # - title: "Small Molecule Property Prediction via Proxy Labeling and Multi-scale Learning"
-    # authors: "Gautam Machiraju, Parag Mallick"
-    # venue: "Preprint (2021)."
-    # paper_pdf: "/assets/publications/prot_fn_pred/cs224w.pdf" 
-    # selected: n
+  - title: "Dynamic Impact of Transfusion Ratios on Outcomes in Severely Injured Patients: Targeted Machine Learning Analysis of the PROPPR Randomized Clinical Trial"
+    authors: "<b>Nguyen M</b>, Pirracchio R, Kornblith LZ, Callcut R, Fox EE, Wade CE, Schreiber M, Holcomb JB, Coyle J, Cohen M, Hubbard A"
+    venue: "Journal of Trauma and Acute Care Surgery. 2020;89(3):498–505."
+    paper_pdf: "https://journals.lww.com/jtrauma/abstract/2020/09000/dynamic_impact_of_transfusion_ratios_on_outcomes.13.aspx"
