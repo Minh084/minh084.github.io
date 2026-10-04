@@ -2,6 +2,7 @@
   --ink: #17212b;
   --muted: #5b6773;
   --accent: #176b73;
+  --royal-blue: #4169e1;
   --line: #e4e9ed;
   --paper: #ffffff;
 }
@@ -59,7 +60,7 @@ a:hover {
   margin-top: 0.8rem;
   margin-right: 1.2rem;
   font-size: 2.2rem;
-  color: #4169e1;
+  color: var(--royal-blue) !important;
 }
 
 h4 {
@@ -71,7 +72,7 @@ h4 {
 
 .docs-section {
   border-top: 1px solid var(--line);
-  padding: 4.5rem 0;
+  padding: 3rem 0;
   margin-bottom: 0;
   scroll-margin-top: 7.5rem;
 }
@@ -129,9 +130,9 @@ h4 {
 
 .career-timeline {
   position: relative;
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 0 0 0 2.5rem;
+  max-width: none;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -140,7 +141,7 @@ h4 {
   position: absolute;
   top: 0.8rem;
   bottom: 0.8rem;
-  left: 0.65rem;
+  left: -2.55rem;
   width: 2px;
   background: var(--line);
 }
@@ -154,7 +155,7 @@ h4 {
   content: "";
   position: absolute;
   top: 1.4rem;
-  left: -2.45rem;
+  left: -3.15rem;
   width: 1.15rem;
   height: 1.15rem;
   border: 3px solid #fff;
@@ -177,10 +178,11 @@ h4 {
 
 .timeline-card {
   display: block;
-  width: 100%;
+  box-sizing: border-box;
+  width: calc(100% + 1.5rem);
   height: auto;
   min-height: 0;
-  margin: 0;
+  margin: 0 0 0 -1.5rem;
   padding: 1.4rem 1.5rem;
   color: var(--ink);
   background: #fff;
@@ -223,7 +225,7 @@ h4 {
 
 .footer .fa,
 .footer .ai {
-  color: #4169e1;
+  color: var(--royal-blue) !important;
 }
 
 .timeline-title {
@@ -320,9 +322,6 @@ h4 {
     padding-top: 0;
   }
 
-  .career-timeline {
-    padding-left: 2.2rem;
-  }
 }
 
 @media (min-width: 750px) {
