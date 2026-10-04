@@ -63,9 +63,9 @@ title: Home
   </p>
 
   <div class="journey-legend" aria-label="Experience categories">
-    <span class="legend-item"><span class="legend-dot education" aria-hidden="true"></span>Technical education</span>
-    <span class="legend-item"><span class="legend-dot clinical" aria-hidden="true"></span>Clinical practice</span>
-    <span class="legend-item"><span class="legend-dot research" aria-hidden="true"></span>Research and clinical AI</span>
+    <span class="legend-item"><span class="legend-dot clinical" aria-hidden="true"></span>Clinical foundation and practice</span>
+    <span class="legend-item"><span class="legend-dot technical" aria-hidden="true"></span>Quantitative training and research</span>
+    <span class="legend-item"><span class="legend-dot clinical-ai" aria-hidden="true"></span>Clinical AI</span>
   </div>
 
   <ol class="career-timeline" aria-label="Career timeline">
@@ -74,6 +74,9 @@ title: Home
         <div class="timeline-card">
           <span class="timeline-date">{{ experience.time }}</span>
           <span class="timeline-title">{{ experience.title }}</span>
+          {% if experience.secondary %}
+            <span class="timeline-secondary">{{ experience.secondary }}</span>
+          {% endif %}
           <span class="timeline-place">{{ experience.place }}</span>
           <span class="timeline-description">{{ experience.subtitle }}</span>
         </div>
@@ -108,11 +111,10 @@ title: Home
 <div class="docs-section" id="background">
   <h4>Additional Background</h4>
   <ul class="spaced-list">
-    <li>PhD in Biomedical Informatics, Stanford University, with a minor in Management Science and Engineering.</li>
-    <li>MA in Biostatistics, University of California, Berkeley; BS in Nursing, San Francisco State University.</li>
-    <li>Teaching experience in probability and statistics at UC Berkeley and Data-Driven Medicine at Stanford.</li>
+    <li>Volunteer PhD Data Scientist, Stanford Health Care Data Science Team (January–May 2024): Supported evaluations of the fairness, utility, and reliability of AI models. Collaborated with Nursing Informatics on nursing workflow automation.</li>
+    <li>Statistical Consultant, UC Berkeley (January–May 2016): Provided statistical consulting services under faculty supervision to the UC Berkeley community for research and applied projects.</li>
+    <li>Teaching experience in undergraduate probability and statistics at UC Berkeley and the graduate-level Data-Driven Medicine course at Stanford University.</li>
     <li>Former <a href="https://vpge.stanford.edu/fellowships-funding/vpge-fellowships/dare-diversifying-academia-recruiting-excellence" target="_blank" rel="noopener">DARE</a> Fellow and Stanford Data Science Scholar; recipient of Stanford Biodesign Innovation and Biodesign NEXT awards.</li>
-    <li>Clinical experience at UCSF Health, the San Francisco VA Medical Center, and Zuckerberg San Francisco General Hospital.</li>
     <li>Member of Sigma Theta Tau International Honor Society of Nursing.</li>
     <li>Outside work, I enjoy music, guitar, ceramics, dancing, sports, nature, and trying different foods.</li>
   </ul>

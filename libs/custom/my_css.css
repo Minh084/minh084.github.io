@@ -59,7 +59,7 @@ a:hover {
   margin-top: 0.8rem;
   margin-right: 1.2rem;
   font-size: 2.2rem;
-  color: var(--accent);
+  color: #4169e1;
 }
 
 h4 {
@@ -115,16 +115,16 @@ h4 {
   border-radius: 50%;
 }
 
-.legend-dot.education {
+.legend-dot.clinical {
   background: #3f6fb5;
 }
 
-.legend-dot.clinical {
-  background: #b4584d;
+.legend-dot.technical {
+  background: #b23a48;
 }
 
-.legend-dot.research {
-  background: var(--accent);
+.legend-dot.clinical-ai {
+  background: #2e7d32;
 }
 
 .career-timeline {
@@ -163,16 +163,16 @@ h4 {
   z-index: 2;
 }
 
-.timeline-entry.education::before {
+.timeline-entry.clinical::before {
   background: #3f6fb5;
 }
 
-.timeline-entry.clinical::before {
-  background: #b4584d;
+.timeline-entry.technical::before {
+  background: #b23a48;
 }
 
-.timeline-entry.research::before {
-  background: var(--accent);
+.timeline-entry.clinical-ai::before {
+  background: #2e7d32;
 }
 
 .timeline-card {
@@ -195,6 +195,7 @@ h4 {
 .timeline-date,
 .timeline-title,
 .timeline-place,
+.timeline-secondary,
 .timeline-description {
   display: block;
 }
@@ -208,6 +209,23 @@ h4 {
   text-transform: uppercase;
 }
 
+.timeline-entry.clinical .timeline-date {
+  color: #3f6fb5;
+}
+
+.timeline-entry.technical .timeline-date {
+  color: #b23a48;
+}
+
+.timeline-entry.clinical-ai .timeline-date {
+  color: #2e7d32;
+}
+
+.footer .fa,
+.footer .ai {
+  color: #4169e1;
+}
+
 .timeline-title {
   font-size: 1.65rem;
   font-weight: 600;
@@ -217,6 +235,13 @@ h4 {
   margin-top: 0.1rem;
   color: var(--muted);
   font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.timeline-secondary {
+  margin-top: 0.1rem;
+  color: var(--ink);
+  font-size: 1.4rem;
   font-weight: 600;
 }
 
