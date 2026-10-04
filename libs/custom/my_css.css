@@ -195,8 +195,7 @@ h4 {
 .timeline-date,
 .timeline-title,
 .timeline-place,
-.timeline-description,
-.timeline-category {
+.timeline-description {
   display: block;
 }
 
@@ -226,15 +225,6 @@ h4 {
   color: var(--muted);
   font-size: 1.3rem;
   font-weight: 400;
-}
-
-.timeline-category {
-  margin-top: 1rem;
-  color: #76828c;
-  font-size: 1.05rem;
-  font-weight: 600;
-  letter-spacing: 0.06rem;
-  text-transform: uppercase;
 }
 
 .paper {
