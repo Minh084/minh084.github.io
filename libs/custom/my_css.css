@@ -149,7 +149,7 @@ h4 {
   position: absolute;
   top: 0.8rem;
   bottom: 0.8rem;
-  left: -2.55rem;
+  left: -1.85rem;
   width: 2px;
   background: var(--line);
 }
@@ -163,7 +163,7 @@ h4 {
   content: "";
   position: absolute;
   top: 1.4rem;
-  left: -3.15rem;
+  left: -2.45rem;
   width: 1.15rem;
   height: 1.15rem;
   border: 3px solid #fff;
@@ -187,11 +187,11 @@ h4 {
 .timeline-card {
   display: block;
   box-sizing: border-box;
-  width: calc(100% + 1.5rem);
+  width: 100%;
   height: auto;
   min-height: 0;
-  margin: 0 0 0 -1.5rem;
-  padding: 1.4rem 1.5rem;
+  margin: 0;
+  padding: 1.4rem 1.5rem 1.4rem 1rem;
   color: var(--ink);
   background: #fff;
   border: 1px solid var(--line);
