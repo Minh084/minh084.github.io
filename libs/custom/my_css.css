@@ -149,7 +149,7 @@ h4 {
   position: absolute;
   top: 0.8rem;
   bottom: 0.8rem;
-  left: -1.85rem;
+  left: 0;
   width: 2px;
   background: var(--line);
 }
@@ -161,11 +161,12 @@ h4 {
 
 .timeline-entry::before {
   content: "";
+  box-sizing: border-box;
   position: absolute;
   top: 1.4rem;
-  left: -2.45rem;
-  width: 1.15rem;
-  height: 1.15rem;
+  left: -0.875rem;
+  width: 1.75rem;
+  height: 1.75rem;
   border: 3px solid #fff;
   border-radius: 50%;
   box-shadow: 0 0 0 1px var(--line);
