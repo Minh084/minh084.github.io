@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="noodle bowl">
+  <path d="M7 3c-2 2 2 3 0 5M12 2c-2 2 2 3 0 6M17 3c-2 2 2 3 0 5" fill="none" stroke="#e34b40" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M3 10h18c0 5.5-3.4 9-9 9s-9-3.5-9-9Z" fill="#f04f45"/>
+  <path d="M5.2 11.5h13.6" stroke="#ffd166" stroke-width="2" stroke-linecap="round"/>
+  <path d="M8 19h8" stroke="#6f3d22" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
