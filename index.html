@@ -95,14 +95,15 @@ title: Home
 
   {% for paper in site.data.publications.papers %}
     <div class="paper">
-      <p class="title"><b>{{ paper.title }}</b></p>
+      <p class="title"><b>
+        {% if paper.paper_pdf %}
+          <a href="{{ paper.paper_pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+        {% else %}
+          {{ paper.title }}
+        {% endif %}
+      </b></p>
       <p>{{ paper.authors }}</p>
       <p><i>{{ paper.venue }}</i></p>
-      {% if paper.paper_pdf %}
-        <div class="paper-buttons">
-          <a class="button" href="{{ paper.paper_pdf }}" target="_blank" rel="noopener">Publication</a>
-        </div>
-      {% endif %}
     </div>
   {% endfor %}
 </div>
