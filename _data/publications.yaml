@@ -3,6 +3,11 @@ papers:
     authors: "Vasti E*, <b>Nguyen M*</b>, Alsentzer E, Chu E, Liu X, Chakoumakos M, et al. (*Co-first authors)"
     venue: "Journal of Cardiac Failure. In press. Accepted August 17, 2026."
 
+  - title: "Explainable Machine Learning for Predicting Incident Heart Failure from Routine Electronic Health Record Data"
+    authors: "Van Ness M, Sandhu AT, Bosschieter TM, Din N, Ambrosy A, <b>Nguyen M</b>, Udell M"
+    venue: "Journal of Cardiac Failure. Published online November 10, 2026."
+    paper_pdf: "https://doi.org/10.1016/j.cardfail.2026.08.013"
+
   - title: "Impact and Resiliency of the Early Phase of the COVID-19 Pandemic on Healthcare Providers and Their Household Members"
     authors: "Kim HJ, <b>Nguyen M</b>, Duck M, Lo Y, Huang V, Kennedy L, Dawson-Rose C, Hong O"
     venue: "Scientific Reports. 2025;15:37012."
